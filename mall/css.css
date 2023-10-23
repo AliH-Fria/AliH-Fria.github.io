@@ -1,0 +1,135 @@
+:root {
+    --aside-width: 15%
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+img {
+    width: 50%;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    grid: auto / var(--aside-width) 1fr;
+    font-family: "Comic sans MS";
+}
+
+aside {
+    background-color: gray;
+}
+
+.aside__wrapper {
+    position: fixed;
+    width: var(--aside-width);
+}
+
+.header {
+    background-color: gray;
+    padding: 5em 0;
+}
+
+.header__logo {
+    background-color: gray;
+    width: 50%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-image: url(https://tr.rbxcdn.com/15DAY-AvatarHeadshot-67E81DA74850E7F96E6038684C89BF30-Png/150/150/AvatarHeadshot/Png/noFilter);
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.header__title {
+    background-color: rgb(205, 200, 200);
+    text-align: center;
+    margin-top: 1.5em;
+    font-size: 24px; 
+    font-weight: normal;
+}
+
+nav {
+}
+
+.nav__links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav__link {
+    text-align: center;
+
+    
+}
+
+.nav__link + * {
+    padding-top: 2em;
+    position: relative;
+}
+
+.nav__link + * ::before {
+    position: absolute;
+    content: "";
+    width: 69%;
+    height: 1px;
+    background-color: black;
+    top: 25%;
+    transform: translateX(0%);
+    background-color: white;
+}
+
+.nav__links a {
+    font-family: 'Concert One', sans-serif;
+    font-size: 38px;
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.main__heading {
+    font-size: 96px;
+    text-align: center;
+}
+
+.main__text {
+    font-size: 24px;
+}
+
+.main__text--center {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main__content {
+    padding: 4em;
+    gap: 4em;
+    display: flex;
+    
+}
+
+.main__content > * {
+    flex: 1 1 0; 
+}
+
+.main__content--text {
+    background-color: whitesmoke;
+}
+
+.main__frame {
+    display: flex;
+    background-color: grey;
+    padding: 4em;
+    gap: 4em;
+}
+
+.main__frame img{
+    width: calc(100% / 3 - 4em);
+}
