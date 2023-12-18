@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #9f9774, #eec200);
+}
+
+.apartment-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.allalagenheter {
+    color: rgba(189, 183, 183, 0.495);
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #1e1d1d;
+    border-radius: 10px;
+    width: 40%;
+}
+
+.allalagenheter img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.allalagenheter p {
+    margin-top: 10px;
+}
+
+.goback-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.goback-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(to bottom, #9f9774, #c7a718);
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}

@@ -1,0 +1,146 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+.container {
+    background-color: #333;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 15px;
+
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.hero {
+    background: url('hero-background.jpg') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.cta-button, .green-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.cta-button {
+    background-color: #007BFF;
+}
+
+.green-button {
+    background-color: #332;
+}
+
+.cta-button:hover, .green-button:hover {
+    filter: brightness(90%);
+}
+
+.products {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.product {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.price {
+    background: linear-gradient(rgb(0, 0, 0) 50%, rgb(64, 64, 65) 50%);
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background: linear-gradient(rgb(0, 0, 0) 40%, rgb(64, 64, 65) 60%);
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    filter: brightness(90%);
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact {
+    background-color: #f8f8f8;
+    padding: 80px 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
