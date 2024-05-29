@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+
+}
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -28,6 +32,10 @@ nav ul {
 nav li {
     display: inline;
     margin-right: 20px;
+}
+
+.menu-bars {
+    display: none;
 }
 
 nav a {
@@ -144,3 +152,12 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
+@media only screen and (max-width: 600px) {
+    .menu-bars {
+      display: block;
+    }
+    .menu-item {
+        display: none;
+    }
+  }
